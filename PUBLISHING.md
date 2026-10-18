@@ -1,8 +1,8 @@
 # 发布到 GitHub 前的清单
 
-这个目录目前嵌在原比赛工程里。**不要在原工程根目录运行 `git add .`、修改其 `origin`，或把原工程历史推送到新仓库。**
+**不要在原工程根目录运行 `git add .`、修改其 `origin`，或把原工程历史推送到新仓库。**
 
-1. 确认根目录的 `LICENSE` 中“崔晓”是你希望公开显示的署名；本项目已按 MIT License 准备好许可文件。
+1. 确认根目录的 `LICENSE` 中“conk”是你希望公开显示的署名；本项目已按 MIT License 准备好许可文件。
 2. 将整个 `open-source-pure-pursuit` 目录**复制到原工程之外**，作为一个全新文件夹。复制时不用带上被 `.gitignore` 忽略的 `build/`。
 3. 在新文件夹内重新运行 README 中的构建与测试命令，核对示例输出和文档。
 4. 在 GitHub 新建**空仓库**，不要勾选初始化 README、许可证或 `.gitignore`（本目录已有 README 与 `.gitignore`）。
